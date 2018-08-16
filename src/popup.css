@@ -1,0 +1,21 @@
+#root {
+  width: 300px;
+  height: 400px;
+  padding: 20px;
+}
+
+#log div {
+  padding: 0.5em;
+}
+
+h2 {
+  /* color: #333; */
+  color: green;
+}
+
+button {
+  font-size: 16px;
+  /* border-radius: 10px; */
+  background: none;
+  padding: 0.25em 0.5em;
+}
