@@ -1,8 +1,8 @@
 {
-  "name": "onsite",
+  "name": "extension-starter-lite",
   "version": "0.0.1",
-  "description": "Google Analytics on site users",
-  "main": "index.js",
+  "description": "Minimalistic Chrome extension starter kit",
+  "main": "manifest.json",
   "scripts": {
     "add-manifest": "ncp src/manifest.json dist/manifest.json",
     "watch-background": "parcel watch src/background.js --hmr-hostname localhost",
@@ -10,18 +10,19 @@
     "clean": "rimraf dist/*",
     "ensure-dist": "mkdirp dist && rimraf dist/*",
     "dev": "npm run ensure-dist && concurrently \"npm run watch-popup\" \"npm run watch-background\" \"npm run add-manifest\"",
-    "build": "npm run ensure-dist && npm run add-manifest && parcel build src/background.js && parcel build src/popup.html && cross-zip dist dist.zip"
+    "build": "npm run ensure-dist && npm run add-manifest && parcel build src/background.js && parcel build src/popup.html && cross-zip dist dist.zip",
+    "start": "npm run dev"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/defly/livescoretab.git"
+    "url": "git+https://github.com/defly/extension-starter-lite.git"
   },
   "author": "defly",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/defly/livescoretab/issues"
+    "url": "https://github.com/defly/extension-starter-lite/issues"
   },
-  "homepage": "https://github.com/defly/livescoretab#readme",
+  "homepage": "https://github.com/defly/extension-starter-lite#readme",
   "devDependencies": {
     "autoprefixer": "^8.6.2",
     "babel": "^6.23.0",

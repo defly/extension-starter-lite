@@ -5,7 +5,7 @@ Minimal chrome extension starter kit based on Parcel bundler
 ```
 git@github.com:defly/extension-starter-lite.git
 npm install
-npm run dev
+npm start
 ```
 
 # Build packed
