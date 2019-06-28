@@ -9,13 +9,11 @@
 }
 
 h2 {
-  /* color: #333; */
   color: green;
 }
 
 button {
   font-size: 16px;
-  /* border-radius: 10px; */
   background: none;
   padding: 0.25em 0.5em;
 }

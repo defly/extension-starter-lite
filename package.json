@@ -25,9 +25,6 @@
   "homepage": "https://github.com/defly/extension-starter-lite#readme",
   "devDependencies": {
     "autoprefixer": "^8.6.2",
-    "babel": "^6.23.0",
-    "babel-core": "^6.26.3",
-    "babel-preset-env": "^1.7.0",
     "concurrently": "^3.6.0",
     "cross-zip-cli": "^1.0.0",
     "mkdirp": "^0.5.1",
