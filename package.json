@@ -1,6 +1,6 @@
 {
   "name": "extension-starter-lite",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Minimalistic Chrome extension starter kit",
   "main": "manifest.json",
   "scripts": {
@@ -24,13 +24,13 @@
   },
   "homepage": "https://github.com/defly/extension-starter-lite#readme",
   "devDependencies": {
-    "autoprefixer": "^8.6.2",
-    "concurrently": "^3.6.0",
+    "autoprefixer": "^8.6.5",
+    "concurrently": "^3.6.1",
     "cross-zip-cli": "^1.0.0",
     "mkdirp": "^0.5.1",
     "ncp": "^2.0.0",
-    "parcel-bundler": "^1.12.3",
-    "postcss-modules": "^1.1.0",
+    "parcel-bundler": "^1.12.4",
+    "postcss-modules": "^1.5.0",
     "rimraf": "^2.6.2"
   }
 }
